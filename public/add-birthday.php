@@ -1,6 +1,6 @@
 <?php
 
-require_once 'functions.php'; 
+require_once 'fwrite-cli.php'; 
 
 echo "Введите имя и фамилию: ";
 $name = trim(fgets(STDIN));
