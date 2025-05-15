@@ -17,7 +17,7 @@ foreach ($lines as $line) {
     $name = trim($name);
     $date = trim($date);
 
-    // Из даты берём только день и месяц
+    
     $birthDayMonth = date('d-m', strtotime($date));
 
     if ($birthDayMonth === $today) {
