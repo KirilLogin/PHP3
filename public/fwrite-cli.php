@@ -1,3 +1,5 @@
+<?php
+
 function validateName($name) {
     return preg_match("/^[А-Яа-яЁё\s\-]+$/u", $name);
 }
